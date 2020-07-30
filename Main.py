@@ -22,7 +22,7 @@ def load_file(str_in):
     interpret(file_str)
 
 def Main():
-    load_file("stdlib.shit")
+    load_file("stdlib.st")
     for n in sys.argv[1:]:
         load_file(n)
     repl()

@@ -1,20 +1,3 @@
-notes:
-this is incredibly limited
-numbers focused (not that strings don't exist they are just dumb)
-
-stuff to add:
-extract the handle functions into separate files
-standardise the names so as to avoid php
-	predicates should have ? at the end
-	names should be full
-	should rename str_eq to string-equal
-	should rename all the functiosn with underscores to -
-add support for pressing up and down to move through the stack of previous commands
-should i add support for like language wide memoization (that would be super cool)
-actually using church encoded booleans would simplify if but at the same time it would also ruin recursion
-	without lazy evaluation
-lazy evaluation would be cool actually
-
 Grammar:
 
 comments are written in between ; so we just delete that
@@ -46,25 +29,8 @@ also do numbers
 running rules:
 
 load a bunch of library functions:
-axiomatic libary functions (defined outside of lisp):
-	increment
-	decrement
-	print
-	define
-	lambda
-	if (might be possible to define with pattern matching)
-	zero?
-the rest of the functions should be written in shitty lisp:
-	y
-	+
-	-
-	*
-	/ (only working within integers so deletes the decimal)
-	mod
-	let (this is impossible without macros)
 
-evaluate:
+evaluate (not counting macros):
 	for n in list:
 		evaluate(n)
 	evaled_list[0] . call ( evaled_list[1:] )
-

@@ -50,7 +50,7 @@ def evaluate_list(arr):
     if check_memo(arr):
         return get_memo(arr)
     if type(arr[0]) is str and arr[0] in macro_name_space:
-        return add_memo(arr, macro_name_space[arr[0]](arr[1:])) #should be currying this, add_memo is identity with side effects 
+        return add_memo(arr, macro_name_space[arr[0]](arr[1:], evaluate)) #potentially don't memoize this
     else:
         evaled_arr = [evaluate(n) for n in arr]
         if len(evaled_arr) == 1 and evaled_arr[0] not in name_space: #do a proper check here later (the real check will be type == func)
