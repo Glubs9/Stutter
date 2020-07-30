@@ -50,3 +50,4 @@ Add better repl ux. (e.g: pressing up and down to cycle through the stack of pre
 Lazy Evaluation?                     
 Write documentation for stdlib.st                
 Add more comments                            
+Fix the bug that is preventing me from re-writing functions in SKI calculus                                
