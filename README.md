@@ -49,3 +49,4 @@ Write a naming convention.
 Add better repl ux. (e.g: pressing up and down to cycle through the stack of previous inputs).                               
 Lazy Evaluation?                     
 Write documentation for stdlib.st                
+Add more comments                            
