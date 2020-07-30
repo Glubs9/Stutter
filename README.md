@@ -11,7 +11,7 @@ While writing the Runner I decided that I wanted there to not be too many axioma
 Make sure to run pip3 install pymonad before running                            
 Download all of the files and run python3 Main.py \[optional file name\]                             
 This will launch a repl where you can input commands                                   
-(note: I don't know how to run files from other folders as even if the files where compiled it still needs access to stdlib.shit)                        
+(note: I don't know how to run files from other folders as even if the files where compiled it still needs access to stdlib.st)                        
 
 # Basic Syntax
 The syntax is very simple. (\[function\] \[argument\]) is used to call a function with an argument. 
