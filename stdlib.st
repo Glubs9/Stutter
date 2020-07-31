@@ -393,4 +393,8 @@ faster even on a sorted list ;
 
 ; sorting algoirhtms end here ;
 
+(define range (lambda start (lambda end-num
+	(if (= start end-num) end
+		(cons start (range (increment start) end-num))))))
+	
 ; list functions end here ;
