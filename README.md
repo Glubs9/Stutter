@@ -1,6 +1,7 @@
 # Stutter
 A bad lisp dialect without any of the features that makes lisp good or fun                                 
-(the name comes from my mom suggesting that a stutter is a bad lisp which although incorrect, is very fun)                          
+(the name comes from my mom suggesting that a stutter is a bad lisp which although incorrect, is very fun)   
+(note: I am gonna update this on my own computer and completely forget to on github, email me jonte.fry@gmail.com if you really desparately want an update)                            
 
 # Motivation
 I was learning scheme and thought that the basic syntax was easy enough to be able to replicate for fun.                            
