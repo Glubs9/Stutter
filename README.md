@@ -45,10 +45,10 @@ begin: (begin \[expr1\] \[expr2\] ... \[exprN\]). This will evaluate expression 
 # TO-DO
 Write a better memoization system that handles io properly.                 
 Write a better string system                                
-Add macros (functions that get called without evaluating their parameters (although that's not what a macro is in lisp it's easier to do)
-Write a naming convention. 
+Add macros (functions that get called without evaluating their parameters (although that's not what a macro is in lisp it's easier to do)                      
+Write a naming convention.                           
 Add better repl ux. (e.g: pressing up and down to cycle through the stack of previous inputs).                               
 Lazy Evaluation?                     
 Write documentation for stdlib.st                
 Add more comments                            
-Fix the bug that is preventing me from re-writing functions in SKI calculus                                
+Fix the bug that is preventing me from re-writing functions in SKI calculus (probably something to do with single character function names)                                     
